@@ -19,7 +19,6 @@ interface dataType {
 
 export default function Home() {
   const [input, setInput] = useState("");
-
   if (data) {
     return (
       <div>

@@ -10,13 +10,11 @@ interface dataType {
   id: number;
   platform: string;
   free_course: string;
-
   link: string;
   difficulty: string;
   module_number: number;
   certification: string;
 }
-
 export default function Home() {
   const [input, setInput] = useState("");
   if (data) {
